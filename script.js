@@ -20,7 +20,7 @@ $(document).ready(function() {
       success: function(data) {
         console.log(data);
 
-        swal("Thank you for your feedback!", "", "success");
+        new swal("Thank you for your feedback!", "", "success");
         submitButton.attr('disabled', false);
         submitButton.text('Submit');
       },
